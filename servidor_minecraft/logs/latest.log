@@ -1,508 +1,77 @@
-[18Jun2025 16:06:47.153] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[18Jun2025 16:06:47.163] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[18Jun2025 16:06:48.727] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[18Jun2025 16:06:48.818] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Privalg/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[18Jun2025 16:06:49.865] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Privalg/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[18Jun2025 16:06:49.867] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Privalg/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Jun2025 16:06:49.869] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Privalg/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Jun2025 16:06:49.870] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Privalg/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[18Jun2025 16:06:51.305] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[18Jun2025 16:06:51.308] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 42 dependencies adding them to mods collection
-[18Jun2025 16:06:52.007] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
-[18Jun2025 16:06:52.053] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
-[18Jun2025 16:06:52.074] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
-[18Jun2025 16:06:52.084] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/Privalg/servidor_minecraft/mods/scripts as it did not exist.
-[18Jun2025 16:06:52.110] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
-[18Jun2025 16:06:59.885] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 7393ms
-[18Jun2025 16:06:59.893] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
-[18Jun2025 16:07:03.595] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[18Jun2025 16:07:03.658] [main/ERROR] [mixin/]: Mixin config gamemenuremovegfarb-common.mixins.json does not specify "minVersion" property
-[18Jun2025 16:07:03.927] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
-[18Jun2025 16:07:05.172] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
-[18Jun2025 16:07:05.187] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[18Jun2025 16:07:05.625] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 184 options available, 3 override(s) found
-[18Jun2025 16:07:06.267] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Jun2025 16:07:06.385] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Jun2025 16:07:06.625] [main/INFO] [Puzzles Lib/]: All mods {/workspaces/Privalg/servidor_minecraft/mods/sound-physics-remastered-forge-1.20.1-1.4.2.jar#343!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7c47e077, /workspaces/Privalg/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#250!/=fuzs.puzzleslib.impl.core.ForgeModContainer@41bd6a0f, /workspaces/Privalg/servidor_minecraft/mods/ecologics-forge-1.20.1-2.2.0.jar#265!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1ae9d0e4, /workspaces/Privalg/servidor_minecraft/mods/Satako-7.0.16-1.20.1.jar#335!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6acb45c1, /workspaces/Privalg/servidor_minecraft/mods/InsaneLib-1.13.5-mc1.20.1.jar#293!/=fuzs.puzzleslib.impl.core.ForgeModContainer@294c44b7, /workspaces/Privalg/servidor_minecraft/mods/no dimensions.jar#314!/=fuzs.puzzleslib.impl.core.ForgeModContainer@30bbe83, /workspaces/Privalg/servidor_minecraft/mods/Wegotrunners0.6b1.20.1[CONFIG FILE UPDATE].jar#358!/=fuzs.puzzleslib.impl.core.ForgeModContainer@57b130f6, /workspaces/Privalg/servidor_minecraft/mods/SereneSeasons-1.20.1-9.0.0.46.jar#336!/=fuzs.puzzleslib.impl.core.ForgeModContainer@67e4928c, /workspaces/Privalg/servidor_minecraft/mods/cleanswing-1.20-1.5.jar#249!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2cc61b3b, /workspaces/Privalg/servidor_minecraft/mods/letmedespawn-forge-1.20.1-1.20.4-1.2.1.jar#301!/=fuzs.puzzleslib.impl.core.ForgeModContainer@72e75786, /workspaces/Privalg/servidor_minecraft/mods/auudio_forge_1.0.3_MC_1.19.3.jar#241!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c0fefac, /workspaces/Privalg/servidor_minecraft/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar#310!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6fbc7853, /workspaces/Privalg/servidor_minecraft/mods/entity_texture_features_forge_1.20.1-6.1.1.jar#272!/=fuzs.puzzleslib.impl.core.ForgeModContainer@733fa95c, /workspaces/Privalg/servidor_minecraft/mods/entity_model_features_forge_1.20.1-2.0.2.jar#271!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3b2c8bda, /workspaces/Privalg/servidor_minecraft/mods/EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar#270!/=fuzs.puzzleslib.impl.core.ForgeModContainer@688d619c, /workspaces/Privalg/servidor_minecraft/mods/map_atlases-1.20-6.0.7.jar#303!/=fuzs.puzzleslib.impl.core.ForgeModContainer@647ff23e, /workspaces/Privalg/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.6.jar#287!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6a04d2a4, /workspaces/Privalg/servidor_minecraft/mods/sliceanddice-forge-3.2.0.jar#339!/=fuzs.puzzleslib.impl.core.ForgeModContainer@35a9e665, /workspaces/Privalg/servidor_minecraft/mods/betterfpsdist-1.20.1-4.4.jar#244!/=fuzs.puzzleslib.impl.core.ForgeModContainer@362be0cd, /workspaces/Privalg/servidor_minecraft/mods/marbledsarsenal-1.20.1-2.2.0.jar#305!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2dde0a34, /workspaces/Privalg/servidor_minecraft/mods/fm_audio_extension_forge_1.1.3_MC_1.20.1.jar#282!/=fuzs.puzzleslib.impl.core.ForgeModContainer@61836cd9, /workspaces/Privalg/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#370!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1b632442, /workspaces/Privalg/servidor_minecraft/mods/Extra Zombie Drops 1.20.1 v4.jar#275!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7227926b, /workspaces/Privalg/servidor_minecraft/mods/Enhanced_Celestials-forge-1.20.1-5.0.0.4.jar#269!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2f75a9b1, /workspaces/Privalg/servidor_minecraft/mods/structure_gel-1.20.1-2.16.2.jar#348!/=fuzs.puzzleslib.impl.core.ForgeModContainer@556aed22, /workspaces/Privalg/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar#248!/=fuzs.puzzleslib.impl.core.ForgeModContainer@57a982f9, /workspaces/Privalg/servidor_minecraft/mods/MutantMonsters-v8.0.7-1.20.1-Forge.jar#311!/=fuzs.puzzleslib.impl.core.ForgeModContainer@19d3f6ad, /workspaces/Privalg/servidor_minecraft/mods/incontrol-1.20-9.2.6.jar#292!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1b69fc07, /workspaces/Privalg/servidor_minecraft/mods/MineTraps-1.20.2-(v.2.3.0a).jar#307!/=fuzs.puzzleslib.impl.core.ForgeModContainer@19e801b5, /workspaces/Privalg/servidor_minecraft/mods/CorgiLib-forge-1.20.1-4.0.1.1.jar#254!/=fuzs.puzzleslib.impl.core.ForgeModContainer@24de63b, /workspaces/Privalg/servidor_minecraft/mods/tacz-1.20.1-1.0.2-release.jar#350!/=fuzs.puzzleslib.impl.core.ForgeModContainer@42d0e41, /workspaces/Privalg/servidor_minecraft/mods/dweller_dweller-3.13.1.jar#263!/=fuzs.puzzleslib.impl.core.ForgeModContainer@50f05307, /workspaces/Privalg/servidor_minecraft/mods/Better Mob Food - Version 1.0.1 (Beta).jar#243!/=fuzs.puzzleslib.impl.core.ForgeModContainer@9cc0505, /workspaces/Privalg/servidor_minecraft/mods/architectury-9.2.14-forge.jar#237!/=fuzs.puzzleslib.impl.core.ForgeModContainer@645d4639, /workspaces/Privalg/servidor_minecraft/mods/projectvibrantjourneys-1.20.1-6.0.0.jar#326!/=fuzs.puzzleslib.impl.core.ForgeModContainer@8ee03f5, /workspaces/Privalg/servidor_minecraft/mods/pointblank-1.20.1-1.5.5.jar#324!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5ad40184, /workspaces/Privalg/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#363!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3359c3f6, /workspaces/Privalg/servidor_minecraft/mods/propertymodifier-1.20.1-0.1-all.jar#327!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3d3b272a, /workspaces/Privalg/servidor_minecraft/mods/ShoulderSurfing-Forge-1.20.1-4.3.0.jar#337!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45b27ad3, /workspaces/Privalg/servidor_minecraft/mods/MyServerIsCompatible-1.20-1.0.jar#313!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3f908bc0, /workspaces/Privalg/servidor_minecraft/mods/Mutants Buff 1.5.3 - 1.20.1.jar#312!/=fuzs.puzzleslib.impl.core.ForgeModContainer@422ba9b7, /workspaces/Privalg/servidor_minecraft/mods/fancymenu_forge_2.14.9-3_MC_1.20.1.jar#276!/=fuzs.puzzleslib.impl.core.ForgeModContainer@26cdd4af, /workspaces/Privalg/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#325_/META-INF/jarjar/spectrelib-forge-0.13.15+1.20.1.jar#464!/=fuzs.puzzleslib.impl.core.ForgeModContainer@707f4647, /workspaces/Privalg/servidor_minecraft/mods/starterkit-1.20.1-6.7.jar#345!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4b8a0d03, /workspaces/Privalg/servidor_minecraft/mods/flan-1.20.1-1.10.4-forge.jar#281!/=fuzs.puzzleslib.impl.core.ForgeModContainer@54f373d4, /workspaces/Privalg/servidor_minecraft/mods/gml-4.0.9-all.jar#288_/META-INF/jarjar/mod-4.0.9.jar#450!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1c53bd49, /workspaces/Privalg/servidor_minecraft/mods/chat_heads-0.12.3-forge-1.20.jar#247!/=fuzs.puzzleslib.impl.core.ForgeModContainer@16949dfa, /workspaces/Privalg/servidor_minecraft/mods/Pehkui-3.8.2+1.20.1-forge.jar#320!/=fuzs.puzzleslib.impl.core.ForgeModContainer@d6d683e, /workspaces/Privalg/servidor_minecraft/mods/packetfixer-forge-1.4.2-1.19-to-1.20.1.jar#319!/=fuzs.puzzleslib.impl.core.ForgeModContainer@42cfd794, /workspaces/Privalg/servidor_minecraft/mods/moonlight-1.20-2.11.37-forge.jar#309!/=fuzs.puzzleslib.impl.core.ForgeModContainer@43778371, /workspaces/Privalg/servidor_minecraft/mods/golemsarefriends-1.20.0-1.0.1.jar#289!/=fuzs.puzzleslib.impl.core.ForgeModContainer@71beada8, /workspaces/Privalg/servidor_minecraft/mods/eatinganimation-1.20-5.0.0.jar#264!/=fuzs.puzzleslib.impl.core.ForgeModContainer@17f41739, /workspaces/Privalg/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#256_/META-INF/jarjar/flywheel-forge-1.20.1-0.6.10-7.jar#477!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2b3b1124, /workspaces/Privalg/servidor_minecraft/mods/MaxArmory_1.20.1_1.1.2.jar#306!/=fuzs.puzzleslib.impl.core.ForgeModContainer@54286339, /workspaces/Privalg/servidor_minecraft/mods/spawnermod-1.20.1-1.9.3+Forge.jar#344!/=fuzs.puzzleslib.impl.core.ForgeModContainer@507f47f9, /workspaces/Privalg/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.7.jar#295!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6785df10, /workspaces/Privalg/servidor_minecraft/mods/combatroll-forge-1.3.2+1.20.1.jar#252!/=fuzs.puzzleslib.impl.core.ForgeModContainer@144440f5, /workspaces/Privalg/servidor_minecraft/mods/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar#286!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3e2c8ef, /workspaces/Privalg/servidor_minecraft/mods/embeddium-0.3.19+mc1.20.1-all.jar#266!/=fuzs.puzzleslib.impl.core.ForgeModContainer@290807e5, /workspaces/Privalg/servidor_minecraft/mods/immersive_aircraft-1.0.1+1.20.1-forge.jar#290!/=fuzs.puzzleslib.impl.core.ForgeModContainer@60bc308b, /workspaces/Privalg/servidor_minecraft/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#341!/=fuzs.puzzleslib.impl.core.ForgeModContainer@56499781, /workspaces/Privalg/servidor_minecraft/mods/UndergroundBunkers-1.0.3-1.19.2-1.20.4-forge.jar#355!/=fuzs.puzzleslib.impl.core.ForgeModContainer@43f99817, /workspaces/Privalg/servidor_minecraft/mods/no-ruined-nether-portals-1.0.jar#315!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2a2798a2, /workspaces/Privalg/servidor_minecraft/mods/JustEnoughResources-1.20.1-1.4.0.247.jar#296!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2b9ecd05, /workspaces/Privalg/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#365!/=fuzs.puzzleslib.impl.core.ForgeModContainer@31f1b268, /workspaces/Privalg/servidor_minecraft/mods/dummmmmmy-1.20-1.8.17b.jar#261!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3ec7ad61, /workspaces/Privalg/servidor_minecraft/mods/create_netherless-1.20.1-1.3.jar#257!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2833c093, /workspaces/Privalg/servidor_minecraft/mods/collective-1.20.1-7.61.jar#251!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7598d675, /workspaces/Privalg/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#283!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4946485c, /workspaces/Privalg/servidor_minecraft/mods/sophisticatedcore-1.20.1-0.6.22.611.jar#342!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4ae958b0, /workspaces/Privalg/servidor_minecraft/mods/responsiveshields-2.3-mc1.18-19-20.x.jar#333!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7c682e26, /workspaces/Privalg/servidor_minecraft/mods/firstjoinmessage-1.20.1-3.5.jar#280!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4ff074a0, /workspaces/Privalg/servidor_minecraft/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar#361!/=fuzs.puzzleslib.impl.core.ForgeModContainer@340fc1aa, /workspaces/Privalg/servidor_minecraft/mods/RapidLeafDecay-1.20.1-2.0.2.jar#330!/=fuzs.puzzleslib.impl.core.ForgeModContainer@34a33343, /workspaces/Privalg/servidor_minecraft/mods/rrls-4.0.6.1+mc1.20.1-forge.jar#334!/=fuzs.puzzleslib.impl.core.ForgeModContainer@98722ef, /workspaces/Privalg/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar#232!/=fuzs.puzzleslib.impl.core.ForgeModContainer@459e120b, /workspaces/Privalg/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#329!/=fuzs.puzzleslib.impl.core.ForgeModContainer@fd69983, /workspaces/Privalg/servidor_minecraft/mods/Philips-Ruins1.20.1-4.0.jar#321!/=fuzs.puzzleslib.impl.core.ForgeModContainer@22429a11, /workspaces/Privalg/servidor_minecraft/mods/oculus-mc1.20.1-1.6.15a.jar#317!/=fuzs.puzzleslib.impl.core.ForgeModContainer@126254ec, /workspaces/Privalg/servidor_minecraft/mods/Terralith_1.20_v2.5.1.jar#352!/=fuzs.puzzleslib.impl.core.ForgeModContainer@275902e1, /workspaces/Privalg/servidor_minecraft/mods/coroutil-forge-1.20.1-1.3.7.jar#255!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1c788d08, /workspaces/Privalg/servidor_minecraft/mods/ToolBelt-1.20.1-1.20.01.jar#354!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2adc1e84, /workspaces/Privalg/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#259!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2a99fa07, /workspaces/Privalg/servidor_minecraft/mods/appleskin-forge-mc1.20.1-2.5.1.jar#236!/=fuzs.puzzleslib.impl.core.ForgeModContainer@45b8bbbf, /workspaces/Privalg/servidor_minecraft/mods/table_top_craft-1.20.1-6.1.2.jar#349!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1df06ecd, /workspaces/Privalg/servidor_minecraft/mods/ftb-teams-forge-2001.3.0.jar#285!/=fuzs.puzzleslib.impl.core.ForgeModContainer@57927bc9, /workspaces/Privalg/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar#279!/=fuzs.puzzleslib.impl.core.ForgeModContainer@323efafe, /workspaces/Privalg/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.2.13.jar#246!/=fuzs.puzzleslib.impl.core.ForgeModContainer@32dbca45, /workspaces/Privalg/servidor_minecraft/mods/tenshilib-1.20.1-1.7.6-forge.jar#351!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2cc34cd5, /workspaces/Privalg/servidor_minecraft/mods/Xaeros_Minimap_24.4.0_Forge_1.20.jar#359!/=fuzs.puzzleslib.impl.core.ForgeModContainer@684b26b7, /workspaces/Privalg/servidor_minecraft/mods/DustrialDecor-1.3.5-1.20.jar#262!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2de7c84a, /workspaces/Privalg/servidor_minecraft/mods/propertymodifier-1.20.1-0.1-all.jar#327_/META-INF/jarjar/mixinextras-forge-0.2.0-beta.8.jar#455!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4182a651, /workspaces/Privalg/servidor_minecraft/mods/regrowth-1.20-46.31.2.jar#331!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7791ff50, /workspaces/Privalg/servidor_minecraft/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar#362!/=fuzs.puzzleslib.impl.core.ForgeModContainer@46de118b, /workspaces/Privalg/servidor_minecraft/mods/justzoom_forge_1.0.2_MC_1.20.1.jar#297!/=fuzs.puzzleslib.impl.core.ForgeModContainer@55682482, /workspaces/Privalg/servidor_minecraft/mods/mobsunscreen-forge-1.20.1-3.1.1.jar#308!/=fuzs.puzzleslib.impl.core.ForgeModContainer@10cb050, /workspaces/Privalg/servidor_minecraft/mods/lostcities-1.20-7.1.8.jar#302!/=fuzs.puzzleslib.impl.core.ForgeModContainer@799fb45e, /workspaces/Privalg/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar#258!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4f7ba0af, /workspaces/Privalg/servidor_minecraft/mods/voicechat-forge-1.20.1-2.5.16.jar#356!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5b23c1f6, /workspaces/Privalg/servidor_minecraft/mods/entityculling-forge-1.6.6-mc1.20.1.jar#273!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3f4964f2, /workspaces/Privalg/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#260!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3bf01a01, /workspaces/Privalg/servidor_minecraft/mods/athena-forge-1.20.1-3.1.2.jar#238!/=fuzs.puzzleslib.impl.core.ForgeModContainer@299cab08, /workspaces/Privalg/servidor_minecraft/mods/comforts-forge-6.3.5+1.20.1.jar#253!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6c75e3bc, /workspaces/Privalg/servidor_minecraft/mods/K-Turrets-3.0.25-1.20.1.jar#298!/=fuzs.puzzleslib.impl.core.ForgeModContainer@186f7434, /workspaces/Privalg/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#323!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2374452a, /workspaces/Privalg/servidor_minecraft/mods/improvedmobs-1.20.1-1.12.4-forge.jar#291!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6ffc6ea7, /workspaces/Privalg/servidor_minecraft/mods/Steam_Rails-1.6.4+forge-mc1.20.1.jar#346!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2c5708e7, /workspaces/Privalg/servidor_minecraft/mods/experimentalsettingsdisabler-1.20.1-3.0.jar#274!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4ffa078d, /workspaces/Privalg/servidor_minecraft/mods/gml-4.0.9-all.jar#288_/META-INF/jarjar/cgl-1.20-forge-0.3.3.jar#469!/=fuzs.puzzleslib.impl.core.ForgeModContainer@4e26564d, /workspaces/Privalg/servidor_minecraft/mods/alexsmobs-1.22.8.jar#233!/=fuzs.puzzleslib.impl.core.ForgeModContainer@42238078, /workspaces/Privalg/servidor_minecraft/mods/walkietalkie-forge-1.20.1-1.3.0.jar#357!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5627b8eb, /workspaces/Privalg/servidor_minecraft/mods/EnchantingInfuser-v8.0.3-1.20.1-Forge.jar#267!/=fuzs.puzzleslib.impl.core.ForgeModContainer@49fe0bcd, /workspaces/Privalg/servidor_minecraft/mods/psg-5.40.1.jar#328!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3516b881, /workspaces/Privalg/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#325!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6be8ce1b, /workspaces/Privalg/servidor_minecraft/mods/marbledsapi-1.20.1-1.0.7.jar#304!/=fuzs.puzzleslib.impl.core.ForgeModContainer@e3c36d, /workspaces/Privalg/servidor_minecraft/mods/notenoughanimations-forge-1.7.4-mc1.20.1.jar#316!/=fuzs.puzzleslib.impl.core.ForgeModContainer@397a10df, /workspaces/Privalg/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#329_/META-INF/jarjar/puzzlesaccessapi-forge-8.0.7.jar#449!/=fuzs.puzzleslib.impl.core.ForgeModContainer@39a865c1, /workspaces/Privalg/servidor_minecraft/mods/fastpaintings-1.20-1.2.7.jar#278!/=fuzs.puzzleslib.impl.core.ForgeModContainer@141dfcf9, /workspaces/Privalg/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.25.jar#332!/=fuzs.puzzleslib.impl.core.ForgeModContainer@a7bbdbc, /workspaces/Privalg/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#256!/=fuzs.puzzleslib.impl.core.ForgeModContainer@63eea8c4, /workspaces/Privalg/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#277!/=fuzs.puzzleslib.impl.core.ForgeModContainer@19924f15, /workspaces/Privalg/servidor_minecraft/mods/structure-expansion-2.0.1-build.11.jar#347!/=fuzs.puzzleslib.impl.core.ForgeModContainer@621392ea, /workspaces/Privalg/servidor_minecraft/mods/Overworld Netherite ore 2.3 1.20.1 Forge.jar#318!/=fuzs.puzzleslib.impl.core.ForgeModContainer@35524549, /workspaces/Privalg/servidor_minecraft/mods/simpleshops-1.2.2.jar#338!/=fuzs.puzzleslib.impl.core.ForgeModContainer@23ec63af, /workspaces/Privalg/servidor_minecraft/mods/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar#234!/=fuzs.puzzleslib.impl.core.ForgeModContainer@280d6a20, /workspaces/Privalg/servidor_minecraft/mods/kotlinforforge-4.11.0-all.jar#300_/META-INF/jarjar/kffmod-4.11.0.jar#462!/=fuzs.puzzleslib.impl.core.ForgeModContainer@56f72909, /workspaces/Privalg/servidor_minecraft/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar#299!/=fuzs.puzzleslib.impl.core.ForgeModContainer@71285693, /workspaces/Privalg/servidor_minecraft/mods/ftb-library-forge-2001.2.2.jar#284!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3199a202, /workspaces/Privalg/servidor_minecraft/mods/automobility-0.4.2+1.20.1-forge.jar#240!/=fuzs.puzzleslib.impl.core.ForgeModContainer@7286827b, /workspaces/Privalg/servidor_minecraft/mods/BetterThirdPerson-Forge-1.20-1.9.0.jar#245!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1dd64243, /workspaces/Privalg/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#360!/=fuzs.puzzleslib.impl.core.ForgeModContainer@2ef913a4, /workspaces/Privalg/servidor_minecraft/mods/The-Hordes-1.20.1-1.5.3a.jar#353!/=fuzs.puzzleslib.impl.core.ForgeModContainer@520c3dcb, /workspaces/Privalg/servidor_minecraft/mods/Atlas Lib-1.20.1-1.1.12.jar#239!/=fuzs.puzzleslib.impl.core.ForgeModContainer@145fe8ab, /workspaces/Privalg/servidor_minecraft/mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar#340!/=fuzs.puzzleslib.impl.core.ForgeModContainer@3b347439, /workspaces/Privalg/servidor_minecraft/mods/Pillagers Gun-1.20.1-forge-1.3.0.jar#322!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5d3634c8, /workspaces/Privalg/servidor_minecraft/mods/EnchantmentDescriptions-Forge-1.20.1-17.0.16.jar#268!/=fuzs.puzzleslib.impl.core.ForgeModContainer@6e67a8c0, /workspaces/Privalg/servidor_minecraft/mods/BadMobs-1.20.1-19.0.2.jar#242!/=fuzs.puzzleslib.impl.core.ForgeModContainer@5960f17, /workspaces/Privalg/servidor_minecraft/mods/Jade-1.20.1-forge-11.11.1.jar#294!/=fuzs.puzzleslib.impl.core.ForgeModContainer@1d1b3620, /workspaces/Privalg/servidor_minecraft/mods/AmbientSounds_FORGE_v6.0.1_mc1.20.1.jar#235!/=fuzs.puzzleslib.impl.core.ForgeModContainer@71e7c13f}
-[18Jun2025 16:07:06.635] [main/INFO] [Puzzles Lib/]: Scheme for sound_physics_remastered: /workspaces/Privalg/servidor_minecraft/mods/sound-physics-remastered-forge-1.20.1-1.4.2.jar#343!/
-[18Jun2025 16:07:06.639] [main/INFO] [Puzzles Lib/]: Scheme for cloth_config: /workspaces/Privalg/servidor_minecraft/mods/cloth-config-11.1.118-forge.jar#250!/
-[18Jun2025 16:07:06.642] [main/INFO] [Puzzles Lib/]: Scheme for ecologics: /workspaces/Privalg/servidor_minecraft/mods/ecologics-forge-1.20.1-2.2.0.jar#265!/
-[18Jun2025 16:07:06.651] [main/INFO] [Puzzles Lib/]: Scheme for satako: /workspaces/Privalg/servidor_minecraft/mods/Satako-7.0.16-1.20.1.jar#335!/
-[18Jun2025 16:07:06.651] [main/INFO] [Puzzles Lib/]: Scheme for insanelib: /workspaces/Privalg/servidor_minecraft/mods/InsaneLib-1.13.5-mc1.20.1.jar#293!/
-[18Jun2025 16:07:06.652] [main/INFO] [Puzzles Lib/]: Scheme for no_portals: /workspaces/Privalg/servidor_minecraft/mods/no dimensions.jar#314!/
-[18Jun2025 16:07:06.652] [main/INFO] [Puzzles Lib/]: Scheme for wegotrunnners: /workspaces/Privalg/servidor_minecraft/mods/Wegotrunners0.6b1.20.1[CONFIG FILE UPDATE].jar#358!/
-[18Jun2025 16:07:06.655] [main/INFO] [Puzzles Lib/]: Scheme for sereneseasons: /workspaces/Privalg/servidor_minecraft/mods/SereneSeasons-1.20.1-9.0.0.46.jar#336!/
-[18Jun2025 16:07:06.661] [main/INFO] [Puzzles Lib/]: Scheme for cleanswing: /workspaces/Privalg/servidor_minecraft/mods/cleanswing-1.20-1.5.jar#249!/
-[18Jun2025 16:07:06.661] [main/INFO] [Puzzles Lib/]: Scheme for letmedespawn: /workspaces/Privalg/servidor_minecraft/mods/letmedespawn-forge-1.20.1-1.20.4-1.2.1.jar#301!/
-[18Jun2025 16:07:06.662] [main/INFO] [Puzzles Lib/]: Scheme for auudio: /workspaces/Privalg/servidor_minecraft/mods/auudio_forge_1.0.3_MC_1.19.3.jar#241!/
-[18Jun2025 16:07:06.663] [main/INFO] [Puzzles Lib/]: Scheme for mousetweaks: /workspaces/Privalg/servidor_minecraft/mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar#310!/
-[18Jun2025 16:07:06.665] [main/INFO] [Puzzles Lib/]: Scheme for entity_texture_features: /workspaces/Privalg/servidor_minecraft/mods/entity_texture_features_forge_1.20.1-6.1.1.jar#272!/
-[18Jun2025 16:07:06.665] [main/INFO] [Puzzles Lib/]: Scheme for entity_model_features: /workspaces/Privalg/servidor_minecraft/mods/entity_model_features_forge_1.20.1-2.0.2.jar#271!/
-[18Jun2025 16:07:06.665] [main/INFO] [Puzzles Lib/]: Scheme for enhancedvisuals: /workspaces/Privalg/servidor_minecraft/mods/EnhancedVisuals_FORGE_v1.8.1_mc1.20.1.jar#270!/
-[18Jun2025 16:07:06.666] [main/INFO] [Puzzles Lib/]: Scheme for map_atlases: /workspaces/Privalg/servidor_minecraft/mods/map_atlases-1.20-6.0.7.jar#303!/
-[18Jun2025 16:07:06.666] [main/INFO] [Puzzles Lib/]: Scheme for geckolib: /workspaces/Privalg/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.6.jar#287!/
-[18Jun2025 16:07:06.666] [main/INFO] [Puzzles Lib/]: Scheme for sliceanddice: /workspaces/Privalg/servidor_minecraft/mods/sliceanddice-forge-3.2.0.jar#339!/
-[18Jun2025 16:07:06.669] [main/INFO] [Puzzles Lib/]: Scheme for betterfpsdist: /workspaces/Privalg/servidor_minecraft/mods/betterfpsdist-1.20.1-4.4.jar#244!/
-[18Jun2025 16:07:06.669] [main/INFO] [Puzzles Lib/]: Scheme for marbledsarsenal: /workspaces/Privalg/servidor_minecraft/mods/marbledsarsenal-1.20.1-2.2.0.jar#305!/
-[18Jun2025 16:07:06.670] [main/INFO] [Puzzles Lib/]: Scheme for fmextension_audio: /workspaces/Privalg/servidor_minecraft/mods/fm_audio_extension_forge_1.1.3_MC_1.20.1.jar#282!/
-[18Jun2025 16:07:06.670] [main/INFO] [Puzzles Lib/]: Scheme for forge: /workspaces/Privalg/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar#370!/
-[18Jun2025 16:07:06.670] [main/INFO] [Puzzles Lib/]: Scheme for extra_zombie_drops: /workspaces/Privalg/servidor_minecraft/mods/Extra Zombie Drops 1.20.1 v4.jar#275!/
-[18Jun2025 16:07:06.671] [main/INFO] [Puzzles Lib/]: Scheme for enhancedcelestials: /workspaces/Privalg/servidor_minecraft/mods/Enhanced_Celestials-forge-1.20.1-5.0.0.4.jar#269!/
-[18Jun2025 16:07:06.674] [main/INFO] [Puzzles Lib/]: Scheme for structure_gel: /workspaces/Privalg/servidor_minecraft/mods/structure_gel-1.20.1-2.16.2.jar#348!/
-[18Jun2025 16:07:06.674] [main/INFO] [Puzzles Lib/]: Scheme for citadel: /workspaces/Privalg/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar#248!/
-[18Jun2025 16:07:06.675] [main/INFO] [Puzzles Lib/]: Scheme for mutantmonsters: /workspaces/Privalg/servidor_minecraft/mods/MutantMonsters-v8.0.7-1.20.1-Forge.jar#311!/
-[18Jun2025 16:07:06.675] [main/INFO] [Puzzles Lib/]: Scheme for incontrol: /workspaces/Privalg/servidor_minecraft/mods/incontrol-1.20-9.2.6.jar#292!/
-[18Jun2025 16:07:06.675] [main/INFO] [Puzzles Lib/]: Scheme for minetraps: /workspaces/Privalg/servidor_minecraft/mods/MineTraps-1.20.2-(v.2.3.0a).jar#307!/
-[18Jun2025 16:07:06.676] [main/INFO] [Puzzles Lib/]: Scheme for corgilib: /workspaces/Privalg/servidor_minecraft/mods/CorgiLib-forge-1.20.1-4.0.1.1.jar#254!/
-[18Jun2025 16:07:06.676] [main/INFO] [Puzzles Lib/]: Scheme for tacz: /workspaces/Privalg/servidor_minecraft/mods/tacz-1.20.1-1.0.2-release.jar#350!/
-[18Jun2025 16:07:06.677] [main/INFO] [Puzzles Lib/]: Scheme for dweller_dweller: /workspaces/Privalg/servidor_minecraft/mods/dweller_dweller-3.13.1.jar#263!/
-[18Jun2025 16:07:06.678] [main/INFO] [Puzzles Lib/]: Scheme for better_mob_food: /workspaces/Privalg/servidor_minecraft/mods/Better Mob Food - Version 1.0.1 (Beta).jar#243!/
-[18Jun2025 16:07:06.680] [main/INFO] [Puzzles Lib/]: Scheme for architectury: /workspaces/Privalg/servidor_minecraft/mods/architectury-9.2.14-forge.jar#237!/
-[18Jun2025 16:07:06.683] [main/INFO] [Puzzles Lib/]: Scheme for projectvibrantjourneys: /workspaces/Privalg/servidor_minecraft/mods/projectvibrantjourneys-1.20.1-6.0.0.jar#326!/
-[18Jun2025 16:07:06.684] [main/INFO] [Puzzles Lib/]: Scheme for pointblank: /workspaces/Privalg/servidor_minecraft/mods/pointblank-1.20.1-1.5.5.jar#324!/
-[18Jun2025 16:07:06.686] [main/INFO] [Puzzles Lib/]: Scheme for betterstrongholds: /workspaces/Privalg/servidor_minecraft/mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar#363!/
-[18Jun2025 16:07:06.688] [main/INFO] [Puzzles Lib/]: Scheme for propertymodifier: /workspaces/Privalg/servidor_minecraft/mods/propertymodifier-1.20.1-0.1-all.jar#327!/
-[18Jun2025 16:07:06.689] [main/INFO] [Puzzles Lib/]: Scheme for shouldersurfing: /workspaces/Privalg/servidor_minecraft/mods/ShoulderSurfing-Forge-1.20.1-4.3.0.jar#337!/
-[18Jun2025 16:07:06.691] [main/INFO] [Puzzles Lib/]: Scheme for myserveriscompatible: /workspaces/Privalg/servidor_minecraft/mods/MyServerIsCompatible-1.20-1.0.jar#313!/
-[18Jun2025 16:07:06.692] [main/INFO] [Puzzles Lib/]: Scheme for mutantsbuff: /workspaces/Privalg/servidor_minecraft/mods/Mutants Buff 1.5.3 - 1.20.1.jar#312!/
-[18Jun2025 16:07:06.692] [main/INFO] [Puzzles Lib/]: Scheme for fancymenu: /workspaces/Privalg/servidor_minecraft/mods/fancymenu_forge_2.14.9-3_MC_1.20.1.jar#276!/
-[18Jun2025 16:07:06.694] [main/INFO] [Puzzles Lib/]: Scheme for spectrelib: /workspaces/Privalg/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#325!/
-[18Jun2025 16:07:06.695] [main/INFO] [Puzzles Lib/]: Scheme for starterkit: /workspaces/Privalg/servidor_minecraft/mods/starterkit-1.20.1-6.7.jar#345!/
-[18Jun2025 16:07:06.696] [main/INFO] [Puzzles Lib/]: Scheme for flan: /workspaces/Privalg/servidor_minecraft/mods/flan-1.20.1-1.10.4-forge.jar#281!/
-[18Jun2025 16:07:06.699] [main/INFO] [Puzzles Lib/]: Scheme for gml: /workspaces/Privalg/servidor_minecraft/mods/gml-4.0.9-all.jar#288!/
-[18Jun2025 16:07:06.699] [main/INFO] [Puzzles Lib/]: Scheme for chat_heads: /workspaces/Privalg/servidor_minecraft/mods/chat_heads-0.12.3-forge-1.20.jar#247!/
-[18Jun2025 16:07:06.699] [main/INFO] [Puzzles Lib/]: Scheme for pehkui: /workspaces/Privalg/servidor_minecraft/mods/Pehkui-3.8.2+1.20.1-forge.jar#320!/
-[18Jun2025 16:07:06.699] [main/INFO] [Puzzles Lib/]: Scheme for packetfixer: /workspaces/Privalg/servidor_minecraft/mods/packetfixer-forge-1.4.2-1.19-to-1.20.1.jar#319!/
-[18Jun2025 16:07:06.700] [main/INFO] [Puzzles Lib/]: Scheme for moonlight: /workspaces/Privalg/servidor_minecraft/mods/moonlight-1.20-2.11.37-forge.jar#309!/
-[18Jun2025 16:07:06.700] [main/INFO] [Puzzles Lib/]: Scheme for golemsarefriends: /workspaces/Privalg/servidor_minecraft/mods/golemsarefriends-1.20.0-1.0.1.jar#289!/
-[18Jun2025 16:07:06.702] [main/INFO] [Puzzles Lib/]: Scheme for eatinganimation: /workspaces/Privalg/servidor_minecraft/mods/eatinganimation-1.20-5.0.0.jar#264!/
-[18Jun2025 16:07:06.704] [main/INFO] [Puzzles Lib/]: Scheme for flywheel: /workspaces/Privalg/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#256!/
-[18Jun2025 16:07:06.706] [main/INFO] [Puzzles Lib/]: Scheme for max_armory: /workspaces/Privalg/servidor_minecraft/mods/MaxArmory_1.20.1_1.1.2.jar#306!/
-[18Jun2025 16:07:06.706] [main/INFO] [Puzzles Lib/]: Scheme for spawnermod: /workspaces/Privalg/servidor_minecraft/mods/spawnermod-1.20.1-1.9.3+Forge.jar#344!/
-[18Jun2025 16:07:06.706] [main/INFO] [Puzzles Lib/]: Scheme for jei: /workspaces/Privalg/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.7.jar#295!/
-[18Jun2025 16:07:06.706] [main/INFO] [Puzzles Lib/]: Scheme for combatroll: /workspaces/Privalg/servidor_minecraft/mods/combatroll-forge-1.3.2+1.20.1.jar#252!/
-[18Jun2025 16:07:06.707] [main/INFO] [Puzzles Lib/]: Scheme for gamemenuremovegfarb: /workspaces/Privalg/servidor_minecraft/mods/gamemenuremovegfarb-forge-mc1.19.4-2.1.2.jar#286!/
-[18Jun2025 16:07:06.710] [main/INFO] [Puzzles Lib/]: Scheme for embeddium: /workspaces/Privalg/servidor_minecraft/mods/embeddium-0.3.19+mc1.20.1-all.jar#266!/
-[18Jun2025 16:07:06.711] [main/INFO] [Puzzles Lib/]: Scheme for immersive_aircraft: /workspaces/Privalg/servidor_minecraft/mods/immersive_aircraft-1.0.1+1.20.1-forge.jar#290!/
-[18Jun2025 16:07:06.711] [main/INFO] [Puzzles Lib/]: Scheme for sophisticatedbackpacks: /workspaces/Privalg/servidor_minecraft/mods/sophisticatedbackpacks-1.20.1-3.20.5.1044.jar#341!/
-[18Jun2025 16:07:06.714] [main/INFO] [Puzzles Lib/]: Scheme for underground_bunkers: /workspaces/Privalg/servidor_minecraft/mods/UndergroundBunkers-1.0.3-1.19.2-1.20.4-forge.jar#355!/
-[18Jun2025 16:07:06.715] [main/INFO] [Puzzles Lib/]: Scheme for no_ruined_nether_portals: /workspaces/Privalg/servidor_minecraft/mods/no-ruined-nether-portals-1.0.jar#315!/
-[18Jun2025 16:07:06.716] [main/INFO] [Puzzles Lib/]: Scheme for jeresources: /workspaces/Privalg/servidor_minecraft/mods/JustEnoughResources-1.20.1-1.4.0.247.jar#296!/
-[18Jun2025 16:07:06.716] [main/INFO] [Puzzles Lib/]: Scheme for minecraft: /workspaces/Privalg/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar#365!/
-[18Jun2025 16:07:06.717] [main/INFO] [Puzzles Lib/]: Scheme for dummmmmmy: /workspaces/Privalg/servidor_minecraft/mods/dummmmmmy-1.20-1.8.17b.jar#261!/
-[18Jun2025 16:07:06.719] [main/INFO] [Puzzles Lib/]: Scheme for create_netherless: /workspaces/Privalg/servidor_minecraft/mods/create_netherless-1.20.1-1.3.jar#257!/
-[18Jun2025 16:07:06.720] [main/INFO] [Puzzles Lib/]: Scheme for collective: /workspaces/Privalg/servidor_minecraft/mods/collective-1.20.1-7.61.jar#251!/
-[18Jun2025 16:07:06.720] [main/INFO] [Puzzles Lib/]: Scheme for framework: /workspaces/Privalg/servidor_minecraft/mods/framework-forge-1.20.1-0.7.6.jar#283!/
-[18Jun2025 16:07:06.720] [main/INFO] [Puzzles Lib/]: Scheme for sophisticatedcore: /workspaces/Privalg/servidor_minecraft/mods/sophisticatedcore-1.20.1-0.6.22.611.jar#342!/
-[18Jun2025 16:07:06.720] [main/INFO] [Puzzles Lib/]: Scheme for responsiveshields: /workspaces/Privalg/servidor_minecraft/mods/responsiveshields-2.3-mc1.18-19-20.x.jar#333!/
-[18Jun2025 16:07:06.721] [main/INFO] [Puzzles Lib/]: Scheme for firstjoinmessage: /workspaces/Privalg/servidor_minecraft/mods/firstjoinmessage-1.20.1-3.5.jar#280!/
-[18Jun2025 16:07:06.722] [main/INFO] [Puzzles Lib/]: Scheme for betterdungeons: /workspaces/Privalg/servidor_minecraft/mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar#361!/
-[18Jun2025 16:07:06.722] [main/INFO] [Puzzles Lib/]: Scheme for rapid_leaf_decay: /workspaces/Privalg/servidor_minecraft/mods/RapidLeafDecay-1.20.1-2.0.2.jar#330!/
-[18Jun2025 16:07:06.723] [main/INFO] [Puzzles Lib/]: Scheme for rrls: /workspaces/Privalg/servidor_minecraft/mods/rrls-4.0.6.1+mc1.20.1-forge.jar#334!/
-[18Jun2025 16:07:06.723] [main/INFO] [Puzzles Lib/]: Scheme for securitycraft: /workspaces/Privalg/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.9.10.jar#232!/
-[18Jun2025 16:07:06.723] [main/INFO] [Puzzles Lib/]: Scheme for puzzleslib: /workspaces/Privalg/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#329!/
-[18Jun2025 16:07:06.723] [main/INFO] [Puzzles Lib/]: Scheme for philipsruins: /workspaces/Privalg/servidor_minecraft/mods/Philips-Ruins1.20.1-4.0.jar#321!/
-[18Jun2025 16:07:06.723] [main/INFO] [Puzzles Lib/]: Scheme for oculus: /workspaces/Privalg/servidor_minecraft/mods/oculus-mc1.20.1-1.6.15a.jar#317!/
-[18Jun2025 16:07:06.723] [main/INFO] [Puzzles Lib/]: Scheme for terralith: /workspaces/Privalg/servidor_minecraft/mods/Terralith_1.20_v2.5.1.jar#352!/
-[18Jun2025 16:07:06.727] [main/INFO] [Puzzles Lib/]: Scheme for coroutil: /workspaces/Privalg/servidor_minecraft/mods/coroutil-forge-1.20.1-1.3.7.jar#255!/
-[18Jun2025 16:07:06.727] [main/INFO] [Puzzles Lib/]: Scheme for toolbelt: /workspaces/Privalg/servidor_minecraft/mods/ToolBelt-1.20.1-1.20.01.jar#354!/
-[18Jun2025 16:07:06.728] [main/INFO] [Puzzles Lib/]: Scheme for cupboard: /workspaces/Privalg/servidor_minecraft/mods/cupboard-1.20.1-2.6.jar#259!/
-[18Jun2025 16:07:06.729] [main/INFO] [Puzzles Lib/]: Scheme for appleskin: /workspaces/Privalg/servidor_minecraft/mods/appleskin-forge-mc1.20.1-2.5.1.jar#236!/
-[18Jun2025 16:07:06.732] [main/INFO] [Puzzles Lib/]: Scheme for table_top_craft: /workspaces/Privalg/servidor_minecraft/mods/table_top_craft-1.20.1-6.1.2.jar#349!/
-[18Jun2025 16:07:06.732] [main/INFO] [Puzzles Lib/]: Scheme for ftbteams: /workspaces/Privalg/servidor_minecraft/mods/ftb-teams-forge-2001.3.0.jar#285!/
-[18Jun2025 16:07:06.732] [main/INFO] [Puzzles Lib/]: Scheme for ferritecore: /workspaces/Privalg/servidor_minecraft/mods/ferritecore-6.0.1-forge.jar#279!/
-[18Jun2025 16:07:06.732] [main/INFO] [Puzzles Lib/]: Scheme for bookshelf: /workspaces/Privalg/servidor_minecraft/mods/Bookshelf-Forge-1.20.1-20.2.13.jar#246!/
-[18Jun2025 16:07:06.732] [main/INFO] [Puzzles Lib/]: Scheme for tenshilib: /workspaces/Privalg/servidor_minecraft/mods/tenshilib-1.20.1-1.7.6-forge.jar#351!/
-[18Jun2025 16:07:06.733] [main/INFO] [Puzzles Lib/]: Scheme for xaerominimap: /workspaces/Privalg/servidor_minecraft/mods/Xaeros_Minimap_24.4.0_Forge_1.20.jar#359!/
-[18Jun2025 16:07:06.733] [main/INFO] [Puzzles Lib/]: Scheme for dustrial_decor: /workspaces/Privalg/servidor_minecraft/mods/DustrialDecor-1.3.5-1.20.jar#262!/
-[18Jun2025 16:07:06.734] [main/INFO] [Puzzles Lib/]: Scheme for mixinextras: /workspaces/Privalg/servidor_minecraft/mods/propertymodifier-1.20.1-0.1-all.jar#327!/
-[18Jun2025 16:07:06.735] [main/INFO] [Puzzles Lib/]: Scheme for regrowth: /workspaces/Privalg/servidor_minecraft/mods/regrowth-1.20-46.31.2.jar#331!/
-[18Jun2025 16:07:06.739] [main/INFO] [Puzzles Lib/]: Scheme for bettermineshafts: /workspaces/Privalg/servidor_minecraft/mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar#362!/
-[18Jun2025 16:07:06.739] [main/INFO] [Puzzles Lib/]: Scheme for justzoom: /workspaces/Privalg/servidor_minecraft/mods/justzoom_forge_1.0.2_MC_1.20.1.jar#297!/
-[18Jun2025 16:07:06.739] [main/INFO] [Puzzles Lib/]: Scheme for mobsunscreen: /workspaces/Privalg/servidor_minecraft/mods/mobsunscreen-forge-1.20.1-3.1.1.jar#308!/
-[18Jun2025 16:07:06.739] [main/INFO] [Puzzles Lib/]: Scheme for lostcities: /workspaces/Privalg/servidor_minecraft/mods/lostcities-1.20-7.1.8.jar#302!/
-[18Jun2025 16:07:06.740] [main/INFO] [Puzzles Lib/]: Scheme for creativecore: /workspaces/Privalg/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar#258!/
-[18Jun2025 16:07:06.741] [main/INFO] [Puzzles Lib/]: Scheme for voicechat: /workspaces/Privalg/servidor_minecraft/mods/voicechat-forge-1.20.1-2.5.16.jar#356!/
-[18Jun2025 16:07:06.743] [main/INFO] [Puzzles Lib/]: Scheme for entityculling: /workspaces/Privalg/servidor_minecraft/mods/entityculling-forge-1.6.6-mc1.20.1.jar#273!/
-[18Jun2025 16:07:06.743] [main/INFO] [Puzzles Lib/]: Scheme for curios: /workspaces/Privalg/servidor_minecraft/mods/curios-forge-5.9.1+1.20.1.jar#260!/
-[18Jun2025 16:07:06.746] [main/INFO] [Puzzles Lib/]: Scheme for athena: /workspaces/Privalg/servidor_minecraft/mods/athena-forge-1.20.1-3.1.2.jar#238!/
-[18Jun2025 16:07:06.750] [main/INFO] [Puzzles Lib/]: Scheme for comforts: /workspaces/Privalg/servidor_minecraft/mods/comforts-forge-6.3.5+1.20.1.jar#253!/
-[18Jun2025 16:07:06.751] [main/INFO] [Puzzles Lib/]: Scheme for k_turrets: /workspaces/Privalg/servidor_minecraft/mods/K-Turrets-3.0.25-1.20.1.jar#298!/
-[18Jun2025 16:07:06.753] [main/INFO] [Puzzles Lib/]: Scheme for playeranimator: /workspaces/Privalg/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar#323!/
-[18Jun2025 16:07:06.753] [main/INFO] [Puzzles Lib/]: Scheme for improvedmobs: /workspaces/Privalg/servidor_minecraft/mods/improvedmobs-1.20.1-1.12.4-forge.jar#291!/
-[18Jun2025 16:07:06.753] [main/INFO] [Puzzles Lib/]: Scheme for railways: /workspaces/Privalg/servidor_minecraft/mods/Steam_Rails-1.6.4+forge-mc1.20.1.jar#346!/
-[18Jun2025 16:07:06.754] [main/INFO] [Puzzles Lib/]: Scheme for experimentalsettingsdisabler: /workspaces/Privalg/servidor_minecraft/mods/experimentalsettingsdisabler-1.20.1-3.0.jar#274!/
-[18Jun2025 16:07:06.756] [main/INFO] [Puzzles Lib/]: Scheme for commongroovylibrary: /workspaces/Privalg/servidor_minecraft/mods/gml-4.0.9-all.jar#288!/
-[18Jun2025 16:07:06.757] [main/INFO] [Puzzles Lib/]: Scheme for alexsmobs: /workspaces/Privalg/servidor_minecraft/mods/alexsmobs-1.22.8.jar#233!/
-[18Jun2025 16:07:06.757] [main/INFO] [Puzzles Lib/]: Scheme for walkietalkie: /workspaces/Privalg/servidor_minecraft/mods/walkietalkie-forge-1.20.1-1.3.0.jar#357!/
-[18Jun2025 16:07:06.758] [main/INFO] [Puzzles Lib/]: Scheme for enchantinginfuser: /workspaces/Privalg/servidor_minecraft/mods/EnchantingInfuser-v8.0.3-1.20.1-Forge.jar#267!/
-[18Jun2025 16:07:06.758] [main/INFO] [Puzzles Lib/]: Scheme for psg: /workspaces/Privalg/servidor_minecraft/mods/psg-5.40.1.jar#328!/
-[18Jun2025 16:07:06.758] [main/INFO] [Puzzles Lib/]: Scheme for polymorph: /workspaces/Privalg/servidor_minecraft/mods/polymorph-forge-0.49.5+1.20.1.jar#325!/
-[18Jun2025 16:07:06.759] [main/INFO] [Puzzles Lib/]: Scheme for marbledsapi: /workspaces/Privalg/servidor_minecraft/mods/marbledsapi-1.20.1-1.0.7.jar#304!/
-[18Jun2025 16:07:06.760] [main/INFO] [Puzzles Lib/]: Scheme for notenoughanimations: /workspaces/Privalg/servidor_minecraft/mods/notenoughanimations-forge-1.7.4-mc1.20.1.jar#316!/
-[18Jun2025 16:07:06.760] [main/INFO] [Puzzles Lib/]: Scheme for puzzlesaccessapi: /workspaces/Privalg/servidor_minecraft/mods/PuzzlesLib-v8.1.20-1.20.1-Forge.jar#329!/
-[18Jun2025 16:07:06.761] [main/INFO] [Puzzles Lib/]: Scheme for fastpaintings: /workspaces/Privalg/servidor_minecraft/mods/fastpaintings-1.20-1.2.7.jar#278!/
-[18Jun2025 16:07:06.764] [main/INFO] [Puzzles Lib/]: Scheme for resourcefullib: /workspaces/Privalg/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.25.jar#332!/
-[18Jun2025 16:07:06.765] [main/INFO] [Puzzles Lib/]: Scheme for create: /workspaces/Privalg/servidor_minecraft/mods/create-1.20.1-0.5.1.f.jar#256!/
-[18Jun2025 16:07:06.766] [main/INFO] [Puzzles Lib/]: Scheme for farmersdelight: /workspaces/Privalg/servidor_minecraft/mods/FarmersDelight-1.20.1-1.2.4.jar#277!/
-[18Jun2025 16:07:06.767] [main/INFO] [Puzzles Lib/]: Scheme for structureexpansion: /workspaces/Privalg/servidor_minecraft/mods/structure-expansion-2.0.1-build.11.jar#347!/
-[18Jun2025 16:07:06.768] [main/INFO] [Puzzles Lib/]: Scheme for overworld_netherite_ore: /workspaces/Privalg/servidor_minecraft/mods/Overworld Netherite ore 2.3 1.20.1 Forge.jar#318!/
-[18Jun2025 16:07:06.768] [main/INFO] [Puzzles Lib/]: Scheme for simpleshops: /workspaces/Privalg/servidor_minecraft/mods/simpleshops-1.2.2.jar#338!/
-[18Jun2025 16:07:06.769] [main/INFO] [Puzzles Lib/]: Scheme for ambientenvironment: /workspaces/Privalg/servidor_minecraft/mods/AmbientEnvironment-forge-1.20.1-11.0.0.1.jar#234!/
-[18Jun2025 16:07:06.772] [main/INFO] [Puzzles Lib/]: Scheme for kotlinforforge: /workspaces/Privalg/servidor_minecraft/mods/kotlinforforge-4.11.0-all.jar#300!/
-[18Jun2025 16:07:06.772] [main/INFO] [Puzzles Lib/]: Scheme for konkrete: /workspaces/Privalg/servidor_minecraft/mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar#299!/
-[18Jun2025 16:07:06.772] [main/INFO] [Puzzles Lib/]: Scheme for ftblibrary: /workspaces/Privalg/servidor_minecraft/mods/ftb-library-forge-2001.2.2.jar#284!/
-[18Jun2025 16:07:06.773] [main/INFO] [Puzzles Lib/]: Scheme for automobility: /workspaces/Privalg/servidor_minecraft/mods/automobility-0.4.2+1.20.1-forge.jar#240!/
-[18Jun2025 16:07:06.774] [main/INFO] [Puzzles Lib/]: Scheme for betterthirdperson: /workspaces/Privalg/servidor_minecraft/mods/BetterThirdPerson-Forge-1.20-1.9.0.jar#245!/
-[18Jun2025 16:07:06.774] [main/INFO] [Puzzles Lib/]: Scheme for yungsapi: /workspaces/Privalg/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.5.jar#360!/
-[18Jun2025 16:07:06.775] [main/INFO] [Puzzles Lib/]: Scheme for hordes: /workspaces/Privalg/servidor_minecraft/mods/The-Hordes-1.20.1-1.5.3a.jar#353!/
-[18Jun2025 16:07:06.776] [main/INFO] [Puzzles Lib/]: Scheme for atlaslib: /workspaces/Privalg/servidor_minecraft/mods/Atlas Lib-1.20.1-1.1.12.jar#239!/
-[18Jun2025 16:07:06.780] [main/INFO] [Puzzles Lib/]: Scheme for smoothboot: /workspaces/Privalg/servidor_minecraft/mods/smoothboot(reloaded)-mc1.20.1-0.0.4.jar#340!/
-[18Jun2025 16:07:06.782] [main/INFO] [Puzzles Lib/]: Scheme for pillagers_gun: /workspaces/Privalg/servidor_minecraft/mods/Pillagers Gun-1.20.1-forge-1.3.0.jar#322!/
-[18Jun2025 16:07:06.782] [main/INFO] [Puzzles Lib/]: Scheme for enchdesc: /workspaces/Privalg/servidor_minecraft/mods/EnchantmentDescriptions-Forge-1.20.1-17.0.16.jar#268!/
-[18Jun2025 16:07:06.783] [main/INFO] [Puzzles Lib/]: Scheme for badmobs: /workspaces/Privalg/servidor_minecraft/mods/BadMobs-1.20.1-19.0.2.jar#242!/
-[18Jun2025 16:07:06.783] [main/INFO] [Puzzles Lib/]: Scheme for jade: /workspaces/Privalg/servidor_minecraft/mods/Jade-1.20.1-forge-11.11.1.jar#294!/
-[18Jun2025 16:07:06.784] [main/INFO] [Puzzles Lib/]: Scheme for ambientsounds: /workspaces/Privalg/servidor_minecraft/mods/AmbientSounds_FORGE_v6.0.1_mc1.20.1.jar#235!/
-[18Jun2025 16:07:06.801] [main/INFO] [Puzzles Lib/]: Loading 139 mods:
-	- alexsmobs 1.22.8
-	- ambientenvironment 11.0.0.1
-	- ambientsounds 6.0.1
-	- appleskin 2.5.1+mc1.20.1
-	- architectury 9.2.14
-	- athena 3.1.2
-	- atlaslib 1.1.12
-	- automobility 0.4.2+1.20.1-forge
-	- auudio 1.0.3
-	- badmobs 19.0.2
-	- better_mob_food 1.0.0
-	- betterdungeons 1.20-Forge-4.0.4
-	- betterfpsdist 1.20.1-4.4
-	- bettermineshafts 1.20-Forge-4.0.4
-	- betterstrongholds 1.20-Forge-4.0.3
-	- betterthirdperson 1.9.0
-	- bookshelf 20.2.13
-	- chat_heads 0.12.3
-	- citadel 2.5.4
-	- cleanswing 1.20-1.5
-	- cloth_config 11.1.118
-	- collective 7.61
-	- combatroll 1.3.2+1.20.1
-	- comforts 6.3.5+1.20.1
-	- commongroovylibrary 0.3.3
-	- corgilib 4.0.1.1
-	- coroutil 1.20.1-1.3.7
-	- create 0.5.1.f
-		\-- flywheel 0.6.10-7
-	- create_netherless 1.3.0
-	- creativecore 2.11.30
-	- cupboard 1.20.1-2.6
-	- curios 5.9.1+1.20.1
-	- dummmmmmy 1.20-1.8.17b
-	- dustrial_decor 1.3.2
-	- dweller_dweller 3.13.1
-	- eatinganimation 5.0.0
-	- ecologics 2.2.0
-	- embeddium 0.3.19+mc1.20.1
-		\-- rubidium 0.7.1
-	- enchantinginfuser 8.0.3
-	- enchdesc 17.0.16
-	- enhancedcelestials 5.0.0.4
-	- enhancedvisuals 1.8.1
-	- entity_model_features 2.0.2
-	- entity_texture_features 6.1.1
-	- entityculling 1.6.6
-	- experimentalsettingsdisabler 3.0
-	- extra_zombie_drops 1.0.0
-	- fancymenu 2.14.9
-	- farmersdelight 1.20.1-1.2.4
-	- fastpaintings 1.20-1.2.7
-	- ferritecore 6.0.1
-	- firstjoinmessage 3.5
-	- flan 1.20.1-1.10.4
-	- fmextension_audio 1.1.1
-	- forge 47.3.7
-	- framework 0.7.6
-	- ftblibrary 2001.2.2
-	- ftbteams 2001.3.0
-	- gamemenuremovegfarb 2.1.2
-	- geckolib 4.4.6
-	- gml 4.0.9
-	- golemsarefriends 1.20.0-1.0.1
-	- hordes 1.5.3a
-	- immersive_aircraft 1.0.1+1.20.1
-	- improvedmobs 1.20.1-1.12.4
-	- incontrol 1.20-9.2.6
-	- insanelib 1.13.5
-	- jade 11.11.1+forge
-	- jei 15.3.0.7
-	- jeresources 1.4.0.247
-	- justzoom 1.0.2
-	- k_turrets 3.0.25-1.20.1
-	- konkrete 1.8.0
-	- kotlinforforge 4.11.0
-	- letmedespawn 1.2.1
-	- lostcities 1.20-7.1.8
-	- map_atlases 1.20-6.0.7
-	- marbledsapi 1.0.7
-	- marbledsarsenal 2.2.0
-	- max_armory 1.1.2
-	- minecraft 1.20.1
-	- minetraps 2.3.0a
-	- mobsunscreen 3.1.1
-	- moonlight 1.20-2.11.37
-	- mousetweaks 2.25.1
-	- mutantmonsters 8.0.7
-	- mutantsbuff 1.0.0
-	- myserveriscompatible 1.0
-	- no_portals 1.2.1
-	- no_ruined_nether_portals 1.0.0
-	- notenoughanimations 1.7.4
-	- oculus 1.6.15a
-	- overworld_netherite_ore 2.3
-	- packetfixer 1.4.2
-	- pehkui 3.8.2+1.20.1-forge
-	- philipsruins 4.0
-	- pillagers_gun 1.3.0
-	- playeranimator 1.0.2-rc1+1.20
-	- pointblank 1.5.5
-	- polymorph 0.49.5+1.20.1
-		\-- spectrelib 0.13.15+1.20.1
-	- projectvibrantjourneys 1.20.1-6.0.0
-	- propertymodifier 0.3.3
-		\-- mixinextras 0.2.0-beta.8
-	- psg 4.01
-	- puzzleslib 8.1.20
-		\-- puzzlesaccessapi 8.0.7
-	- railways 1.6.4+forge-mc1.20.1
-	- rapid_leaf_decay 2.0.2
-	- regrowth 46.31.2
-	- resourcefullib 2.1.25
-	- responsiveshields 2.3
-	- rrls 4.0.6.1+mc1.20.1-forge
-	- satako 7.0.16-1.20.1
-	- securitycraft 1.9.10
-	- sereneseasons 9.0.0.46
-	- shouldersurfing 1.20.1-4.3.0
-	- simpleshops 1.2.2
-	- sliceanddice 3.2.0
-	- smoothboot 0.0.4
-	- sophisticatedbackpacks 3.20.5.1044
-	- sophisticatedcore 0.6.22.611
-	- sound_physics_remastered 1.20.1-1.4.2
-	- spawnermod 1.9.3
-	- starterkit 6.7
-	- structure_gel 2.16.2
-	- structureexpansion 2.0.1-build.11
-	- table_top_craft 1.20.1-6.1.2
-	- tacz 1.0.2
-	- tenshilib 1.20.1-1.7.6
-	- terralith 2.5.1
-	- toolbelt 1.20.01
-	- underground_bunkers 1.0.3
-	- voicechat 1.20.1-2.5.16
-	- walkietalkie 1.3.0
-	- wegotrunnners 1.0.0
-	- xaerominimap 24.4.0
-	- yungsapi 1.20-Forge-4.0.5
-[18Jun2025 16:07:06.873] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Jun2025 16:07:06.937] [main/WARN] [mixin/]: Reference map 'packetfixer-forge-forge-refmap.json' for packetfixer-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[18Jun2025 16:07:10.428] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
-[18Jun2025 16:07:10.431] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
-[18Jun2025 16:07:13.784] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[18Jun2025 16:07:14.228] [main/INFO] [Smooth Boot (Reloaded)/]: Smooth Boot (Reloaded) config initialized
-[18Jun2025 16:07:25.368] [main/WARN] [mixin/]: @Redirect conflict. Skipping securitycraft.mixins.json:camera.ServerPlayerMixin->@Redirect::securitycraft$tick(Lnet/minecraft/server/level/ServerPlayer;DDDFF)V with priority 1100, already redirected by railways-common.mixins.json:conductor_possession.ServerPlayerMixin->@Redirect::railways$securitycraft$tick(Lnet/minecraft/server/level/ServerPlayer;DDDFF)V with priority 1200
-[18Jun2025 16:07:27.557] [main/INFO] [org.groovymc.gml.internal.ModExtensionLoader/]: Skipping extension class org.groovymc.cgl.api.extension.client.MinecraftExtensions: it requires dist CLIENT, but we're running on DEDICATED_SERVER
-[18Jun2025 16:07:27.888] [modloading-worker-0/WARN] [auudio/Auudio/]: WARNING: Auudio is a client mod and has no effect when loaded on a server!
-[18Jun2025 16:07:28.028] [modloading-worker-0/INFO] [satako/]: Satako loaded
-[18Jun2025 16:07:28.233] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
-[18Jun2025 16:07:28.272] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixFeature
-[18Jun2025 16:07:28.279] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
-[18Jun2025 16:07:28.284] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.AEC3DFeature
-[18Jun2025 16:07:28.803] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[18Jun2025 16:07:28.808] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[18Jun2025 16:07:28.808] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[18Jun2025 16:07:28.808] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[18Jun2025 16:07:28.808] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[18Jun2025 16:07:28.808] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[18Jun2025 16:07:28.808] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[18Jun2025 16:07:29.225] [modloading-worker-0/INFO] [hordes/]: Trying to load common config
-[18Jun2025 16:07:29.243] [modloading-worker-0/INFO] [hordes/]: Trying to load client config
-[18Jun2025 16:07:29.270] [modloading-worker-0/INFO] [hordes/]: Config files are up to date, skipping data/asset generation
-[18Jun2025 16:07:29.538] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
-[18Jun2025 16:07:29.538] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
-[18Jun2025 16:07:29.616] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-[18Jun2025 16:07:29.617] [modloading-worker-0/ERROR] [Embeddium/]: Failed to update fingerprint
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at me.jellysquid.mods.sodium.client.data.fingerprint.FingerprintMeasure.create(FingerprintMeasure.java:19) ~[embeddium-0.3.19+mc1.20.1-all.jar%23266!/:?]
-	at me.jellysquid.mods.sodium.client.SodiumClientMod.updateFingerprint(SodiumClientMod.java:100) ~[embeddium-0.3.19+mc1.20.1-all.jar%23266!/:?]
-	at me.jellysquid.mods.sodium.client.SodiumClientMod.<init>(SodiumClientMod.java:41) ~[embeddium-0.3.19+mc1.20.1-all.jar%23266!/:?]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23367!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23366!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[18Jun2025 16:07:29.752] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: entity_model_features, class traben.entity_model_features.forge.EMFForge
-java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing
-	at traben.entity_model_features.forge.EMFForge.<init>(EMFForge.java:37) ~[entity_model_features_forge_1.20.1-2.0.2.jar%23271!/:?]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23367!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23366!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[18Jun2025 16:07:29.782] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: entity_texture_features, class traben.entity_texture_features.forge.ETFClientForge
-java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing
-	at traben.entity_texture_features.forge.ETFClientForge.<init>(ETFClientForge.java:40) ~[entity_texture_features_forge_1.20.1-6.1.1.jar%23272!/:?]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23367!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23366!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[18Jun2025 16:07:30.434] [modloading-worker-0/INFO] [gml/]: Initialised GML mod. Version: 4.0.9
-[18Jun2025 16:07:31.076] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[18Jun2025 16:07:31.080] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: oculus, class net.coderbot.iris.Iris
-java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:1.0]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
-	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3373) ~[?:?]
-	at java.lang.Class.getConstructor0(Class.java:3578) ~[?:?]
-	at java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23367!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23366!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[18Jun2025 16:07:31.113] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.61.
-[18Jun2025 16:07:31.421] [modloading-worker-0/INFO] [pointblank/]: Loading mod pointblank
-[18Jun2025 16:07:31.945] [modloading-worker-0/WARN] [yungsapi/]: WARNING: block Block{minecraft:coal_ore} added to BlockStateRandomizer exceeds max probabiltiy of 1!
-[18Jun2025 16:07:32.302] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
-[18Jun2025 16:07:32.415] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[18Jun2025 16:07:32.614] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
-[18Jun2025 16:07:32.872] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
-[18Jun2025 16:07:32.994] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
-[18Jun2025 16:07:33.003] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
-[18Jun2025 16:07:33.012] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
-[18Jun2025 16:07:33.021] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
-[18Jun2025 16:07:33.034] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
-[18Jun2025 16:07:33.075] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mutantmonsters:main
-[18Jun2025 16:07:33.661] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[18Jun2025 16:07:33.663] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[18Jun2025 16:07:33.724] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[18Jun2025 16:07:33.725] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: table_top_craft, class andrews.table_top_craft.TableTopCraft
-java.lang.ExceptionInInitializerError: null
-	at andrews.table_top_craft.util.shader_compat.ShaderCompatHandler.initOculusCompat(ShaderCompatHandler.java:19) ~[table_top_craft-1.20.1-6.1.2.jar%23349!/:1.20.1-6.1.2]
-	at andrews.table_top_craft.TableTopCraft.<init>(TableTopCraft.java:77) ~[table_top_craft-1.20.1-6.1.2.jar%23349!/:1.20.1-6.1.2]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
-	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23367!/:?]
-	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23366!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.lang.RuntimeException
-	at andrews.table_top_craft.util.shader_compat.ShaderCompatOculus.<clinit>(ShaderCompatOculus.java:27) ~[table_top_craft-1.20.1-6.1.2.jar%23349!/:1.20.1-6.1.2]
-	... 16 more
-[18Jun2025 16:07:34.593] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id walkietalkie:updatewalkietalkie_c2s
-[18Jun2025 16:07:34.599] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id walkietalkie:updatespeaker_c2s
-[18Jun2025 16:07:34.605] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id walkietalkie:activatekeypressed_c2s
-[18Jun2025 16:07:35.510] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[18Jun2025 16:07:36.698] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
-[18Jun2025 16:07:37.464] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
-[18Jun2025 16:07:37.518] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 7 milliseconds
-[18Jun2025 16:07:37.580] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
-[18Jun2025 16:07:37.584] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
-[18Jun2025 16:07:37.589] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
-[18Jun2025 16:07:37.595] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
-[18Jun2025 16:07:37.598] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
-[18Jun2025 16:07:37.604] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
-[18Jun2025 16:07:37.605] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
-[18Jun2025 16:07:37.609] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
-[18Jun2025 16:07:37.618] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
-[18Jun2025 16:07:39.549] [modloading-worker-0/INFO] [fancymenu/FancyMenu/]: [FANCYMENU] Loading v2.14.9 in server-side mode!
-[18Jun2025 16:07:39.574] [modloading-worker-0/WARN] [fmaudio/FmAudio/]: WARNING: FancyMenu Audio Extension is a client mod and has no effect when loaded on a server!
-[18Jun2025 16:07:39.582] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[18Jun2025 16:07:39.656] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
-[18Jun2025 16:07:39.753] [modloading-worker-0/INFO] [dev.tonimatas.packetfixer.PacketFixer/]: Packet Fixer has been initialized successfully
-[18Jun2025 16:07:40.106] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 4 errors found
-[18Jun2025 16:07:40.276] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID c547ef05-29df-417a-808a-d95faed269d7
-[18Jun2025 16:07:40.277] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-06-18_16.07.40-fml.txt
-[18Jun2025 16:07:40.304] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 152da826-4d50-4240-a282-04d2cd7d7fbd
-[18Jun2025 16:07:40.308] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+[18Jun2025 18:58:22.625] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[18Jun2025 18:58:22.629] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[18Jun2025 18:58:25.636] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[18Jun2025 18:58:25.713] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Privalg/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[18Jun2025 18:58:25.781] [main/WARN] [CrashAssistantJarInJarHelper/]: launchTarget: forgeserver. Crash Assistant is client only mod. Mod will do nothing!
+[18Jun2025 18:58:26.703] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Privalg/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[18Jun2025 18:58:26.710] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Privalg/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Jun2025 18:58:26.711] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Privalg/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Jun2025 18:58:26.713] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Privalg/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[18Jun2025 18:58:28.441] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[18Jun2025 18:58:28.442] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[18Jun2025 18:58:28.444] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: /workspaces/Privalg/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+[18Jun2025 18:58:28.445] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 93 dependencies adding them to mods collection
+[18Jun2025 18:58:29.351] [main/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Starting runtime mappings setup...
+[18Jun2025 18:58:29.447] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injecting ScriptModLocator candidates...
+[18Jun2025 18:58:29.481] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Injected Jimfs file system
+[18Jun2025 18:58:29.491] [main/INFO] [org.groovymc.gml.scriptmods.ScriptModLocator/]: Skipped loading script mods from directory /workspaces/Privalg/servidor_minecraft/mods/scripts as it did not exist.
+[18Jun2025 18:58:29.516] [main/INFO] [org.groovymc.gml.internal.locator.ModLocatorInjector/]: Injected ScriptModLocator mod candidates. Found 0 valid mod candidates and 0 broken mod files.
+[18Jun2025 18:58:29.583] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+	Mod ID: 'forge', Requested by: 'rightclickharvest', Expected range: '[47.4.0,)', Actual version: '47.3.7'
+	Mod ID: 'forge', Requested by: 'jamlib', Expected range: '[47.4.0,)', Actual version: '47.3.7'
+[18Jun2025 18:58:33.387] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
+[18Jun2025 18:58:33.410] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[18Jun2025 18:58:36.253] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Loaded runtime mappings in 6393ms
+[18Jun2025 18:58:36.254] [GML Mappings Thread/INFO] [org.groovymc.gml.mappings.MappingsProvider/]: Finished runtime mappings setup.
+[18Jun2025 18:58:44.422] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §erightclickharvest§r requires §6forge§r §o47.4.0 or above§r
+§7Currently, §6forge§r§7 is §o47.3.7
+	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.20.1-47.3.7.jar%23481!/:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:96) ~[fmlcore-1.20.1-47.3.7.jar%23481!/:?]
+	at net.minecraftforge.fml.ModLoader.get(ModLoader.java:128) ~[fmlcore-1.20.1-47.3.7.jar%23481!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.7-universal.jar%23485!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23480!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[18Jun2025 18:58:44.529] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-06-18_18.58.44-fml.txt
+[18Jun2025 18:58:44.531] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
 net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
-	Entity Model Features (entity_model_features) has failed to load correctly
-§7java.lang.UnsupportedOperationException: Attempting to load a clientside only mod [EMF] on the server, refusing,
-	Entity Texture Features (entity_texture_features) has failed to load correctly
-§7java.lang.UnsupportedOperationException: Attempting to load a clientside only mod on the server, refusing,
-	Oculus (oculus) has failed to load correctly
-§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
-	Table Top Craft (table_top_craft) has failed to load correctly
-§7java.lang.ExceptionInInitializerError: null
+	Mod §erightclickharvest§r requires §6forge§r §o47.4.0 or above§r
+§7Currently, §6forge§r§7 is §o47.3.7,
+	Mod §ejamlib§r requires §6forge§r §o47.4.0 or above§r
+§7Currently, §6forge§r§7 is §o47.3.7
 ]
-	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.3.7.jar%23366!/:?]
-	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23366!/:?]
-	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.3.7.jar%23366!/:?]
-	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23366!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23366!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.7-universal.jar%23370!/:?]
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23365!/:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:149) ~[fmlcore-1.20.1-47.3.7.jar%23481!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.3.7-universal.jar%23485!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23480!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]

@@ -1,0 +1,17 @@
+{
+	id: "6752cc2c-c2d5-3757-8cc6-920aac5369c1"
+	type: "player"
+	player_name: "yohan78ty"
+	ranks: {
+		6752cc2c-c2d5-3757-8cc6-920aac5369c1: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "yohan78ty"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF8F59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
